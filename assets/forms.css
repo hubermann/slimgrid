@@ -1,0 +1,50 @@
+/****** | BuenosWeb.com - 2012 | SlimGrid CSS - Designed and crafted by Gabriel Hubermann | ******/
+
+
+/***** Form *****/
+
+#simpleform	{padding:0px; margin:0; }
+#simpleform fieldset {padding: 15px; border:1px solid #aaa;  }
+#simpleform .form-item {display:block; width:100%; float: left;}
+
+#simpleform label { display:block; margin:10px 0 5px 0; font-weight:bold; float: left;}
+#simpleform [type="text"], textarea	{padding:4px; }
+	
+#simpleform [type="text"],textarea, label{width:415px;}
+
+#simpleform [type="radio"]{ line-height:14px; margin:0 4px 15px 2px; display: inline-block; }
+#simpleform [type="checkbox"]{ line-height:14px;  margin:0 4px 15px 2px; display: inline-block;  }
+#simpleform button{margin:5px 0 5px 0; padding:8px 25px; border:0;display:inline-block;  color:#475055; background:#bbb;
+						border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; cursor:pointer; }
+#simpleform button:hover{color:#fff; background:#475055; }
+#simpleform .boxradio{display: block; width:40%; margin: 0 0 0 10px; float: left; }
+	
+.nomargin{margin-left:0; } 
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+  	
+	#simpleform fieldset {padding: 15px; }
+	#simpleform [type="text"],textarea, label{width:323px;}
+
+  }
+
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+	#simpleform fieldset {padding: 10px; }
+	#simpleform [type="text"],textarea, label{width:424px;}
+	
+  }
+ 
+  @media only screen and (min-width: 320px) and (max-width: 479px){
+  
+
+	#simpleform fieldset {padding: 10px; font-weight:bold;}
+	#simpleform [type="text"],textarea, label{width:270px;}
+
+
+  }
